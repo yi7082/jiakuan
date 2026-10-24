@@ -460,8 +460,8 @@ EDGE_HOSTS = [
     h.strip()
     for h in os.environ.get(
         "EDGE_HOSTS",
-        "saas.072159.xyz:443,hzytjy.cn:443,ali.nonull.pp.ua:443,auto.dolby.dpdns.org:443,"
-        "cdn.cnno.de:443,saas.sin.fan:443,cf.777791.xyz:443",
+        "funko.com:443,egov.uscis.gov:443,www.sage.com:443,www.giannidelprete.it:443,"
+        "www.wto.org:443,www.shopify.com:443,login.rockwellautomation.com:443",
     ).split(",")
     if h.strip()
 ]
@@ -522,8 +522,9 @@ def build_hosts_text(data):
 
 
 # edgetunnel 完整订阅 (vless://) 配置
-EDT_UUID = os.environ.get("EDT_UUID", "90c14586-42a5-4c30-959d-8b36608d67f7")
-EDT_DOMAIN = os.environ.get("EDT_DOMAIN", "ed.xiaolei.qzz.io")
+EDT_UUID = os.environ.get("EDT_UUID", "d306c265-cf21-4baf-98af-e7df35d554e7")
+EDT_DOMAIN = os.environ.get("EDT_DOMAIN", "
+jia.768222.xyz")
 EDT_FINGERPRINT = os.environ.get("EDT_FINGERPRINT", "chrome")
 SUB_URL = os.environ.get("SUB_URL", "https://jerylihub.github.io/gate/sub.txt")
 
